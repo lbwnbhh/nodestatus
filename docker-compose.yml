@@ -11,7 +11,7 @@ services:
       PING_INTERVAL: 30
       TZ: Asia/Shanghai
 
-      USE_PUSH: "true"
+      USE_PUSH: "false"
       USE_IPC: "true"
       USE_WEB: "true"
 
@@ -21,8 +21,8 @@ services:
       WEB_HEADTITLE: "NodeStatus"
 
       WEB_USERNAME: "admin"
-      WEB_PASSWORD: ""
-      WEB_SECRET: ""
+      WEB_PASSWORD: "12345678"
+      WEB_SECRET: "12345678"
 
       PUSH_TIMEOUT: 120
       PUSH_DELAY: 15
